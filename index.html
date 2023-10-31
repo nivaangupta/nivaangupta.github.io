@@ -58,7 +58,7 @@
             </ul>
             <div class="footer">
                 <span>
-                    Last Updated on August 2023
+                    Last Updated on October 2023
                 </span>
             </div>
         </div>
@@ -194,7 +194,7 @@
                             <div class="fact-item">
                                 <span class="fas fa-code-branch"></span>
                                 <div class="details">
-                                    <h3 class="number"><em class="count">18</em></h3>
+                                    <h3 class="number"><em class="count">19</em></h3>
                                     <p>Github Repos</p>
                                 </div>
                             </div>
@@ -402,6 +402,21 @@
                     </div> -->
 
                     <!-- ==== POP UPS === -->
+                    <!-- #0 POPUP -->
+                    <div class="popup" id="popup-0" style="display: none;">
+                        <div class="overlay"></div>
+                        <div class="content rounded">
+                            <div class="close-btn" onclick="togglePopup('popup-0')">&times;</div>
+                            <iframe height="333" width="592" src="https://www.youtube.com/embed/BDQ0weJKkWU" style="margin-bottom:2rem;"></iframe>
+                            <h2 class="pop">CRUD Application - MERN stack</h2>
+                            <p>Programming Language | Concepts : Node.JS, Express, Mongoose, MongoDB, AWS, Aws-ec2, Cloud Deployment</p>
+                            <p>This is a CRUD web app that performs create, read, update & delete operations </p>
+                            <p>it accepts both text & image input via a form & stores the data in a MongoDB cluster</p>
+                            <p>The middleware used is express that connects NodeJs with MongoDB via mongoose module</p>
+                            <a href="https://github.com/nivaangupta/CRUD-App" target="_blank" class="btn btn-default">View on Github</a>  
+                            <a href="http://52.14.166.72" target="_blank" class="btn btn-default">View Web App</a>                   
+                        </div>
+                    </div>
                     <!-- #1 POPUP -->
                     <div class="popup" id="popup-1" style="display: none;">
                         <div class="overlay"></div>
@@ -533,8 +548,18 @@
 
 
                     <!-- IMAGES OF WORK TO BE CLICKED -->
-                    <!-- #1 WORK -->
                     <div class="row portfolio-wrapper">
+                    <!-- #0 WORK -->
+                        <div class="col-lg-4 col-md-6 col-12 grid-item" data-category=".web .cloud .da .game">
+                            <a class="work-content" onclick="togglePopup('popup-0')">
+                                <div class="portfolio-item rounded shadow-dark">
+                                    <div  class="thumb">
+                                        <img src="./images/CRUD.png" width="300px;" alt="CRUD App Page">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    <!-- #1 WORK -->
                         <div class="col-lg-4 col-md-6 col-12 grid-item" data-category=".web .cloud">
                             <a class="work-content" onclick="togglePopup('popup-1')">
                                 <div class="portfolio-item rounded shadow-dark">
