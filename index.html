@@ -402,6 +402,20 @@
                     </div> -->
 
                     <!-- ==== POP UPS === -->
+                     <!-- #-1 POPUP -->
+                    <div class="popup" id="popup--1" style="display: none;">
+                        <div class="overlay"></div>
+                        <div class="content rounded">
+                            <div class="close-btn" onclick="togglePopup('popup--1')">&times;</div>
+                            <iframe height="333" width="592" src="https://www.youtube.com/embed/Z2A2OcCeKMc" style="margin-bottom:2rem;"></iframe>
+                            <h2 class="pop">Github Data Analytics Dashboard</h2>
+                            <p> Programming Language | Concepts : Python (Streamlit, Panadas, Matplotlib, Seaborn) Data Analytics, Data Science</p>
+                            <p> Ready to Deploy Streamlit Dashboard with Data Analytics & filtering capabilities for large datasets </p>
+                            <p> Analyses github data of about 28 million cells to give consise insights</p>
+                            <p> Data credits: <a href="https://www.kaggle.com/datasets/nikhil25803/github-dataset/code"> https://www.kaggle.com/datasets/nikhil25803/github-dataset/code </a> </p>
+                            <a href="https://github.com/nivaangupta/github-dashboard-app" target="_blank" class="btn btn-default">View on Github</a>                 
+                        </div>
+                    </div>
                     <!-- #0 POPUP -->
                     <div class="popup" id="popup-0" style="display: none;">
                         <div class="overlay"></div>
@@ -548,6 +562,16 @@
 
                     <!-- IMAGES OF WORK TO BE CLICKED -->
                     <div class="row portfolio-wrapper">
+                    <!-- #-1 WORK -->
+                        <div class="col-lg-4 col-md-6 col-12 grid-item" data-category=".web .cloud .da .game">
+                            <a class="work-content" onclick="togglePopup('popup--1')">
+                                <div class="portfolio-item rounded shadow-dark">
+                                    <div  class="thumb">
+                                        <img src="./images/github_dashboard.png" width="300px;" alt="dashboard web page">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     <!-- #0 WORK -->
                         <div class="col-lg-4 col-md-6 col-12 grid-item" data-category=".web .cloud .da .game">
                             <a class="work-content" onclick="togglePopup('popup-0')">
