@@ -402,6 +402,21 @@
                     </div> -->
 
                     <!-- ==== POP UPS === -->
+                     <!-- #-2 POPUP -->
+                     <div class="popup" id="popup--2" style="display: none;">
+                        <div class="overlay"></div>
+                        <div class="content rounded">
+                            <div class="close-btn" onclick="togglePopup('popup--2')">&times;</div>
+                            <iframe height="333" width="592" src="https://www.youtube.com/embed/iCcxrWm069w" style="margin-bottom:2rem;"></iframe>
+                            <h2 class="pop">Research Paper Summarizer Web App</h2>
+                            <p> Programming Language | Concepts : Python (Flask, Cohere, jinja, pdfminer-six, os, dotenv), Artificial Intelligence, Google Cloud </p>
+                            <p> Deployed web app that summarizes any pdf - specially made for research papers</p>
+                            <p> User CoHere's API to perform summarization</p>
+                            <p> Research Paper Credit: <a href="https://ieeexplore.ieee.org/document/9591951"> https://ieeexplore.ieee.org/document/9591951 </a> </p>
+                            <a href="https://github.com/nivaangupta/cohere-app" target="_blank" class="btn btn-default">View on Github</a>     
+                            <a href="http://34.85.233.71:5000/" target="_blank" class="btn btn-default">View the Web App</a>            
+                        </div>
+                    </div>
                      <!-- #-1 POPUP -->
                     <div class="popup" id="popup--1" style="display: none;">
                         <div class="overlay"></div>
@@ -562,6 +577,16 @@
 
                     <!-- IMAGES OF WORK TO BE CLICKED -->
                     <div class="row portfolio-wrapper">
+                    <!-- #-2 WORK -->
+                     <div class="col-lg-4 col-md-6 col-12 grid-item" data-category=".web .cloud .ai">
+                        <a class="work-content" onclick="togglePopup('popup--2')">
+                            <div class="portfolio-item rounded shadow-dark">
+                                <div  class="thumb">
+                                    <img src="./images/ai-web-app.png" width="300px;" alt="AI web page">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <!-- #-1 WORK -->
                         <div class="col-lg-4 col-md-6 col-12 grid-item" data-category=".web .da">
                             <a class="work-content" onclick="togglePopup('popup--1')">
